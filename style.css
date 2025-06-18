@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#cce0ff, #e0f7fa);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  text-align: center;
+}
+canvas { display: block; margin: auto; border: none; }
+h1 { color: #2e7d32; margin: 10px 0; }
+p { color: #555; margin: 5px 0 10px; }
+#scoreDisplay {
+  font-size: 20px; color: #333;
+  background: rgba(255,255,255,0.6);
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
